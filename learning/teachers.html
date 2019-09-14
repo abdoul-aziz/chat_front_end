@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" href="learning.css">
+  <link href='https://fonts.googleapis.com/css?family=Henny Penny' rel='stylesheet'>
+  <script src="" async defer></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <style>
+  body {
+      font-family: 'Henny Penny';font-size: 22px;
+      background: url(learningInClass.jpg);
+      background-size:cover;
+  }
+    .navbar a {
+      color: #fff !important;
+    }
+    .navbar-brand a{
+      color:#1a1aff !important;
+    }
+    div.transbox {
+      margin: 80px;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.6;
+      filter: alpha(opacity=60); /* For IE8 and earlier */
+    }
+
+    div.transbox p {
+      margin: 5%;
+      font-weight: bold;
+      color: #000000;
+    }
+</style>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#a07903;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li><a href="kids.html">   BASIC</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">SECONDARY<span class="caret"></span></a>
+      </li>
+      <li><a href="#">EXTRA-CURRICULAR</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="teachers.html"><span class="glyphicon glyphicon-user"></span>Teachers</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Students Login</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<div class="container" style="margin-top:50px">
+  <ul class="pager">
+    <li class="previous"><a href="learning.html">BACK</a></li>
+    <li class="next" color="green"><a href="#">NEXT</a></li>
+  </ul>
+  <div class="transbox">
+    <h2>Submission Form</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Name:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="email">Number:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+
+    <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">TEACHING LEVEL
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Basic Education</a></li>
+      <li><a href="#">Secondary Education</a></li>
+    </ul>
+  </div><br>
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">SPECIFIC TOPIC
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Maths</a></li>
+      <li><a href="#">Biology</a></li>
+      <li><a href="#">Economics</a></li>
+    </ul>
+  </div><br>
+  <button type="button" class="btn btn-primary btn-lg">UPLOAD CONTENT</button>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default btn-lg">Submit</button>
+  </form>
+  </div>
+  </div>
+  </body>
+  </html>

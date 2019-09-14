@@ -1,0 +1,12 @@
+{
+    "name": "hac/telecenter",
+    "authors": [
+        {
+            "name": "Abdoul aziz Hamayadji",
+            "email": "abdoulazizhamayadji95@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
